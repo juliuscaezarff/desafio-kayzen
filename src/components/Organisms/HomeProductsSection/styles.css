@@ -4,4 +4,20 @@
   .home-products-section {
     @apply flex flex-col items-center w-full min-h-[467px] pt-[80px] text-center mx-auto;
   }
+
+  .title-container {
+    @apply text-4xl font-semibold text-blue-primary-light max-w-[333px];
+  }
+
+  .sub-title-container {
+    @apply text-base font-normal text-sub-title-dark max-w-[333px] mt-[20px];
+  }
+
+  .carrousel-container {
+    @apply w-full h-[50px] bg-red-500 mt-[60px] text-center;
+  }
+
+  .brands-container {
+    @apply bg-blue-primary-dark flex py-[60px] px-[45px];
+  }
 }

@@ -1,21 +1,18 @@
 // Styles
-import Image from 'next/image'
 import './styles.css'
 
-// Assets
-import IntroBackground from '../../../../public/assets/via-certa-home-principal-mobile.png'
+//next
+import Image from 'next/image'
 
 const HomeIntroSection = () => {
   return (
     <section className="home-section-intro">
-      <div className="flex flex-col items-center">
-        <h1 className="text-4xl font-bold text-blue-primary-light ">
-          Via Certa:
-        </h1>
-        <h1 className="text-2xl font-normal mt-5 mx-auto max-w-[367px]">
+      <div className="home-section-container">
+        <h1 className="title-container">Via Certa:</h1>
+        <h1 className="subtitle-container">
           A distribuidora que entrega o melhor do mercado.
         </h1>
-        <p className="text-base max-w-[351px] font-normal mt-[40px]">
+        <p className="paragraph-container">
           Conte com nosso selo de excelência, seja distribuindo sua marca ou
           abastecendo seu empreendimento.
         </p>
@@ -23,7 +20,7 @@ const HomeIntroSection = () => {
           Falar com a via certa
         </button>
       </div>
-      <Image src={IntroBackground} alt="" className="w-full mt-[-28px]" />
+      <Image src='/assets/via-certa-home-principal-mobile.png' alt="" className="image-container" width={390} height={327}/>
     </section>
   )
 }

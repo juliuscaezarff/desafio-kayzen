@@ -4,4 +4,8 @@
   .home-form-section {
     @apply flex flex-col items-center w-full min-h-[882px] pt-[80px] text-center mx-auto bg-red-primary;
   }
+
+  .title-form-container {
+    @apply text-4xl font-semibold text-white max-w-[303px];
+  }
 }

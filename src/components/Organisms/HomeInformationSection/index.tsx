@@ -19,11 +19,11 @@ const HomeIformationSection = () => {
           height={25}
         />
       </div>
-      <div className="mt-[60px] text-center">
-        <h1 className="text-2xl font-bold text-blue-primary max-w-[294px] mx-auto">
+      <div className="home-information-container">
+        <h1 className="title-information-container">
           Qual a diferença entre varejo e atacado?
         </h1>
-        <p className="text-lg font-medium text-dark max-w-[279px] mt-[24px] mx-auto">
+        <p className="sub-title-information-container">
           5 exemplos para você entender na prática
         </p>
         <button className="px-16 bg-transparent text-red-primary border-2 border-red-primary rounded-3xl h-[53px] uppercase font-bold shadow-lg shadow-gray-600 mt-[40px] mb-[90px]">

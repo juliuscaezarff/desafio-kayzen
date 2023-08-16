@@ -1,17 +1,16 @@
 // Styles
-import Image from 'next/image'
 import './styles.css'
-import HomeAchievementsBox from './../../Molecules/HomeAchievementsBox/index'
 
-// Assets
+// Components
+import HomeAchievementsBox from './../../Molecules/HomeAchievementsBox/index'
 
 const HomeAchieventsSection = () => {
   return (
     <section className="home-achievements-section">
-      <h1 className="text-4xl font-semibold text-blue-primary-light max-w-[308px]">
+      <h1 className="title-achievements-container">
         Nossos Números
       </h1>
-      <p className="text-base font-normal text-sub-title-dark max-w-[340px] mt-[40px] mb-[60px]">
+      <p className="sub-title-achievements-container">
         Visando sempre excelência no atendimento, a Via Certa está preparada
         para atender os canais varejistas de pequeno porte até as principais
         redes de supermercados, seja na capital ou nos interiores do Amazonas.

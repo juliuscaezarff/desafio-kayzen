@@ -1,17 +1,19 @@
 // Components
-import HomeAchieventsSection from '@/components/Organisms/HomeAchievementsSection'
-import HomeFormSection from '@/components/Organisms/HomeFormSection'
-import HomeIformationSection from '@/components/Organisms/HomeInformationSection'
 import HomeIntroSection from '@/components/Organisms/HomeIntroSection'
 import HomeProductsSection from '@/components/Organisms/HomeProductsSection'
+import HomeAchievementsSection from '@/components/Organisms/HomeAchievementsSection'
+import HomeBenefitsSection from '@/components/Organisms/HomeBenefitsSection'
+import HomeInformationSection from '@/components/Organisms/HomeInformationSection'
+import HomeFormSection from '@/components/Organisms/HomeFormSection'
 
 function AboutPage() {
   return (
     <>
       <HomeIntroSection />
       <HomeProductsSection />
-      <HomeAchieventsSection />
-      <HomeIformationSection />
+      <HomeAchievementsSection />
+      <HomeBenefitsSection />
+      <HomeInformationSection />
       <HomeFormSection />
     </>
   )

@@ -18,7 +18,7 @@ const menu_navbar: Array<LinkProps> = [
   },
   {
     label: 'Contato',
-    href: '/'
+    href: '/contato'
   },
 ]
 

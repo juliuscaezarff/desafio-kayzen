@@ -4,7 +4,7 @@ import './styles.css'
 
 // Assets
 
-const HomeIformationSection = () => {
+const HomeInformationSection = () => {
   return (
     <section className="home-information-section">
       <div className="w-full h-[81px] bg-blue-primary flex items-center justify-center gap-1">
@@ -34,4 +34,4 @@ const HomeIformationSection = () => {
   )
 }
 
-export default HomeIformationSection
+export default HomeInformationSection

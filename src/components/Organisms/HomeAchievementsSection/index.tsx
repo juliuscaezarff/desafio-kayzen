@@ -4,7 +4,7 @@ import './styles.css'
 // Components
 import HomeAchievementsBox from './../../Molecules/HomeAchievementsBox/index'
 
-const HomeAchieventsSection = () => {
+const HomeAchievementsSection = () => {
   return (
     <section className="home-achievements-section">
       <h1 className="title-achievements-container">
@@ -50,4 +50,4 @@ const HomeAchieventsSection = () => {
   )
 }
 
-export default HomeAchieventsSection
+export default HomeAchievementsSection

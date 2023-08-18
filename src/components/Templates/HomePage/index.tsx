@@ -14,7 +14,6 @@ function AboutPage() {
       <HomeAchievementsSection />
       <HomeBenefitsSection />
       <HomeInformationSection />
-      <HomeFormSection />
     </>
   )
 }

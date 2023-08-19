@@ -14,7 +14,7 @@ const menu_navbar: Array<LinkProps> = [
   },
   {
     label: 'Via Certa Ensina',
-    href: '/'
+    href: '/blog'
   },
   {
     label: 'Contato',

@@ -10,7 +10,7 @@ const menu_navbar: Array<LinkProps> = [
   },
   {
     label: 'Nossos Parceiros',
-    href: '/'
+    href: '/parceiros'
   },
   {
     label: 'Via Certa Ensina',

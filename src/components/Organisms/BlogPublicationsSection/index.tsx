@@ -7,6 +7,7 @@ import Image from 'next/image'
 //Components
 import BlogAnotherPublicationsComponent from '@/components/Atoms/BlogAnotherPublicationsComponent'
 import BlogSocialLinksSection from '@/components/Atoms/BlogSocialLinksSection'
+import BlogCarouselComponent from '@/components/Atoms/BlogCarouselComponent'
 
 const BlogPublicationSection = () => {
   return (
@@ -49,6 +50,8 @@ const BlogPublicationSection = () => {
           <h1 className="another-publications-text">Outras publicações</h1>
 
           <BlogAnotherPublicationsComponent />
+
+          <BlogCarouselComponent />
 
           <BlogSocialLinksSection />
         </div>

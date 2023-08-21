@@ -3,25 +3,31 @@
 @layer components {
   .home-section-intro {
     @apply flex flex-col items-center w-full min-h-[467px] pt-[80px] text-center mx-auto;
+    @apply md:flex-row md:pt-[29px];
   }
 
   .home-section-container {
-    @apply flex flex-col items-center
+    @apply flex flex-col items-center;
+    @apply md:h-[385px] md:w-1/2 md:text-center md:flex md:flex-col md:px-16 md:items-start;
   }
 
   .title-container {
-    @apply text-4xl font-bold text-blue-primary-light
+    @apply text-4xl font-bold text-blue-primary-light;
+    @apply md:text-[50px];
   }
 
   .subtitle-container {
-    @apply text-2xl font-normal mt-5 mx-auto max-w-[367px]
+    @apply text-2xl font-normal mt-5 mx-auto max-w-[367px];
+    @apply md:max-w-[539px] md:mx-0 md:text-left md:text-4xl;
   }
 
   .paragraph-container {
-    @apply text-base max-w-[351px] font-normal mt-[40px]
+    @apply text-base max-w-[351px] font-normal mt-[40px];
+    @apply md:max-w-[520px] md:text-xl md:text-left;
   }
 
   .image-container {
-    @apply w-full mt-[-28px]
+    @apply w-full mt-[-28px];
+    @apply md:h-full;
   }
 }

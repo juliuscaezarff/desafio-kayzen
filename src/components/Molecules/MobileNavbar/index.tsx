@@ -20,12 +20,12 @@ const MobileNavbar = ({ links, onClick }: MobileNavbarProps) => {
   const id = uuid4()
 
   return (
-    <nav className="bg-light-grayish-blue border border-dark-grayish-blue rounded absolute top-[87px] right-3 px-3 py-4 lg:hidden">
+    <nav className="bg-white border border-dark rounded absolute top-[45px] right-3 px-3 py-4 lg:hidden w-[280px]">
       <ul className="text-dark-grayish-blue flex flex-col gap-4 mb-[45px]">
         {links.map(link => (
           <li
             key={id}
-            className="text-base leading-9 border-b border-dark-grayish-blue border-opacity-5"
+            className="text-base leading-9 active:bg-violet-700"
           >
             <Link href={link.href} onClick={onClick}>
               {link.label}

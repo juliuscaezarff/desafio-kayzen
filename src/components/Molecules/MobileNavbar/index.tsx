@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { useState, useEffect } from 'react'
 
 // Packages
-import { v4 as uuid4 } from 'uuid'
+import { v4 as uuidv4 } from 'uuid';
 
 // Mocks
 import { LinkProps } from '@/components/Organisms/Header/types'
@@ -17,7 +17,7 @@ interface MobileNavbarProps {
 }
 
 const MobileNavbar = ({ links, onClick }: MobileNavbarProps) => {
-  const id = uuid4()
+  const id = uuidv4()
 
   return (
     <nav className="bg-white border border-dark rounded absolute top-[45px] right-3 px-3 py-4 lg:hidden w-[280px]">

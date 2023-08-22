@@ -12,7 +12,8 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'form-background': 'url(/assets/foto-carrinho-supermercado.png)'
+        'form-background': 'url(/assets/foto-carrinho-supermercado.png)',
+        'gradient-background': 'url(/assets/div.gradient.svg)'
       },
       colors: {
         'red-primary': '#A81E1E',

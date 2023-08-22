@@ -2,33 +2,28 @@
 import Image from 'next/image'
 import './styles.css'
 
-// Assets
-
 const HomeInformationSection = () => {
   return (
     <section className="home-information-section">
-      <div className="w-full h-[81px] bg-blue-primary flex items-center justify-center gap-1">
-        <div>
-          <p className="font-medium text-sm text-white">Via Certa</p>
-          <p className="text-right font-bold text-base text-white">ensina</p>
-        </div>
-        <Image
-          src="/logos/logo-via-certa-ensina.png"
-          alt="logo"
-          width={35}
-          height={25}
-        />
-      </div>
       <div className="home-information-container">
         <h1 className="title-information-container">
-          Qual a diferença entre varejo e atacado?
+          Entenda melhor sobre o mercado atacadista.
         </h1>
         <p className="sub-title-information-container">
-          5 exemplos para você entender na prática
+          Confira dicas para escolher seus parceiros.
         </p>
         <button className="px-16 bg-transparent text-red-primary border-2 border-red-primary rounded-3xl h-[53px] uppercase font-bold shadow-lg shadow-gray-600 mt-[40px] mb-[90px]">
-          ler matéria completa
+          CONHEÇA O VIA CERTA ENSINA
         </button>
+      </div>
+      <div className="home-box-via-ensina">
+        <Image
+          className="md:w-[186px] md:h-[65px]"
+          src="/logos/logo-via-certa-ensina.svg"
+          alt="logo"
+          width={116}
+          height={39}
+        />
       </div>
     </section>
   )

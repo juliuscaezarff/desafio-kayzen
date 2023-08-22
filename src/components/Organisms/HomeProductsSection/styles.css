@@ -16,7 +16,7 @@
   }
 
   .carrousel-container {
-    @apply w-full h-[50px] bg-red-500 mt-[60px] flex items-center;
+    @apply w-full h-[50px] bg-red-500 mt-[60px] flex items-center overflow-x-hidden;
   }
 
   .products-image-mobile {
@@ -33,8 +33,8 @@
   }
 
 .letter {
-  @apply flex gap-[54px] items-center;
-  animation: anim-stars 16s linear infinite;
+  @apply flex gap-[54px] items-center overflow-x-hidden;
+  animation: anim-stars 12s linear infinite;
 }
 
   @keyframes anim-stars {

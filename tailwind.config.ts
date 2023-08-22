@@ -4,7 +4,7 @@ const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}'
   ],
   theme: {
     extend: {
@@ -12,6 +12,7 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'form-background': 'url(/assets/foto-carrinho-supermercado.png)'
       },
       colors: {
         'red-primary': '#A81E1E',
@@ -23,10 +24,10 @@ const config: Config = {
         'dark': '#1E2126',
         'sub-title-dark': '#342929',
         'gray-dark': '#54595F',
-        'light-gray': '#D8D8D8',
+        'light-gray': '#D8D8D8'
       }
-    },
+    }
   },
-  plugins: [],
+  plugins: [require('tailwindcss-animatecss')]
 }
 export default config

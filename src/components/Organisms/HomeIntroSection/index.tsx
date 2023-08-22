@@ -21,7 +21,7 @@ const HomeIntroSection = () => {
         </button>
       </div>
       <div className="w-full md:w-1/2">
-      <Image src='/assets/via-certa-home-principal-mobile.png' alt="" className="image-container" width={390} height={327}/>
+      <Image src='/assets/foto-principal-pagina-home.png' alt="" className="image-container" width={390} height={327}/>
       </div>
     </section>
   )

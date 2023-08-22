@@ -1,20 +1,22 @@
 const HomeFormComponent = () => {
   return (
-    <form className="w-full max-w-[360px] flex flex-col gap-4 mt-[60px] ">
+    <form className="w-[380px] flex flex-col gap-4 bg-red-700 md:w-[593px] ">
+      <div className="flex flex-col justify-between gap-4 md:flex-row md:gap-[10px]">
       <input
-        className="h-[59px] p-[20px]"
+        className="h-[59px] p-[20px] md:w-[286px]"
         type="text"
         name="name"
         id="name"
         placeholder="Nome"
       />
       <input
-        className="h-[59px]  p-[20px]"
+        className="h-[59px]  p-[20px] md:w-[286px]"
         type="text"
         name="phone"
         id="phone"
         placeholder="Telefone"
       />
+      </div>
       <input
         className="h-[59px]  p-[20px]"
         type="email"

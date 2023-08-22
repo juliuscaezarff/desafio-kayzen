@@ -2,7 +2,7 @@
 
 @layer components {
   .home-benefits-section {
-    @apply flex flex-col items-center w-full min-h-[867px] pt-[80px] text-center mx-auto bg-gradient-background bg-no-repeat bg-center md:mt-[100px];
+    @apply flex flex-col items-center w-full min-h-[867px] pt-[80px] text-center mx-auto bg-gradient-background bg-no-repeat bg-center bg-cover md:mt-[100px];
   }
   
   .circle-medium {

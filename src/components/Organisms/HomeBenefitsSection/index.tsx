@@ -12,7 +12,7 @@ const HomeBenefitsSection = () => {
         <div className="triangle"></div>
       </div>
 
-      <div className="lg:w-[991px] mt-[80px] mb-[166px]">
+      <div className="h-[1274px] md:h-[867px] lg:w-[991px] mt-[80px]">
         <div className="flex items-center md:pl-[60px] md:gap-[40px]">
           <div className="flex flex-col gap-[32px]">
             <h1 className="font-bold text-xl text-white max-w-[194px] md:max-w-[319px] mx-auto text-right md:text-left uppercase md:text-2xl">

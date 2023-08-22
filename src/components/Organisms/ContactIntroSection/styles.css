@@ -1,0 +1,31 @@
+@tailwind components;
+
+@layer components {
+  .contact-intro-section {
+    @apply flex flex-col;
+    @apply md:flex-row md:h-[450px];
+  }
+
+  .contact-text-container {
+    @apply md:w-1/2 flex flex-col items-center md:mt-[108px] text-center;
+  }
+
+  .title-contact-container {
+    @apply text-4xl font-bold text-blue-primary-light max-w-[185px] mx-auto;
+    @apply md:text-5xl md:mb-4 md:max-w-[211px];
+  }
+
+  .subtitle-contact-container {
+    @apply text-2xl font-normal mt-5 mx-auto max-w-[340px] mb-[60px];
+    @apply md:text-4xl md:mt-6 md:max-w-[519px];
+  }
+
+  .image-contact-container {
+    @apply md:w-1/2 h-full;
+  }
+
+  .image-contact {
+    @apply h-full w-full bg-cover bg-center;
+    
+  }
+}

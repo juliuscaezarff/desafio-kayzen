@@ -18,7 +18,7 @@ const Footer = () => {
           Manaus Am
         </p>
       </div>
-      <div className="flex flex-col gap-[18px] mt-[74px] text-blue-primary font-semibold text-sm">
+      <div className="flex flex-col gap-[18px] text-blue-primary font-semibold text-sm items-start md:items-start">
         <Link href={menu_navbar[0].href} className="link">
           {menu_navbar[0].label}
         </Link>
@@ -32,10 +32,10 @@ const Footer = () => {
           {menu_navbar[3].label}
         </Link>
       </div>
-      <div className="flex flex-col items-center mt-[89px]">
+      <div className="flex flex-col items-center">
         <div className="flex items-center gap-[12px] ">
           <Image src="/icons/icon-mail.svg" alt="logo" width={14} height={14} />
-          <p className="">contato@viacerta.com.br</p>
+          <p className="text-red-700 font-semibold text-sm">contato@viacerta.com.br</p>
         </div>
         <div className="flex items-center gap-[12px]">
           <Image
@@ -44,15 +44,15 @@ const Footer = () => {
             width={14}
             height={14}
           />
-          <p className="">(92) 3643-8250</p>
+          <p className="text-red-700 font-bold text-sm mt-[11px]">(92) 3643-8250</p>
         </div>
-        <div className="flex mt-[89px] gap-[20px]">
+        <div className="flex items-center mt-[50px] gap-[20px]">
           <Link href="/">
             <Image
               src="/icons/icon-facebook.svg"
               alt="logo"
-              width={12}
-              height={18}
+              width={10}
+              height={10}
             />
           </Link>
           <Link href="/">

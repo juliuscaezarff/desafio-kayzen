@@ -2,11 +2,11 @@
 
 @layer components {
   .home-box-via-ensina {
-    @apply w-full h-[81px] bg-blue-primary flex items-center justify-center md:w-[443px] md:h-[363px];
+    @apply w-full h-[81px] bg-blue-primary flex items-center justify-center md:w-[443px] md:h-[368px];
   }
 
   .home-information-section {
-    @apply flex flex-col-reverse items-center w-full min-h-[363px] text-center mx-auto;
+    @apply flex flex-col-reverse items-center w-full min-h-[340px] text-center mx-auto pt-[70px];
     @apply md:flex-row md:justify-between;
   }
 

@@ -23,7 +23,7 @@ const Header = () => {
   }
 
   return (
-    <header className="flex justify-between items-center p-3 lg:px-[60px] lg:py-7 lg:max-w-[1440px] lg:mx-auto">
+    <header className="flex justify-between items-center p-3 lg:px-[60px] lg:py-7 lg:max-w-[1440px] lg:mx-auto bg-white">
       <Link
         href="/"
         className="hover:scale-110 hover:duration-200 w-[62px] h-[44px]"

@@ -7,7 +7,7 @@
 
   .letter {
     @apply flex items-center justify-center text-white gap-8;
-    animation: anim-stars 10s linear infinite;
+    animation: anim-stars 14s linear infinite;
     position: absolute;
   }
   

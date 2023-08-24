@@ -2,7 +2,7 @@
 
 @layer components {
   .contact-information-section {
-    @apply flex flex-col items-center w-full pt-[80px] text-center mx-auto mb-[60px];
+    @apply flex flex-col items-center w-full pt-[80px] text-center mx-auto mb-[60px] md:mt-8;
   }
 
   .contact-information-container {
@@ -11,7 +11,6 @@
   }
 
   .contact-local-box {
-    /* @apply mt-[110px] max-w-[335px] mb-[120px] flex flex-col items-center justify-center md:mt-0 md:mr-[227px] bg-red-200 md:max-w-[511px]; */
    @apply md:mr-[100px] mt-[110px] md:mt-0 flex flex-col items-center;
   }
 }

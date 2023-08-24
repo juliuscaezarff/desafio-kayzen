@@ -5,14 +5,14 @@ import Image from 'next/image'
 const HomeBenefitsSection = () => {
   return (
     <section className="home-benefits-section">
-      <h1 className="font-normal text-3xl text-blue-primary-light max-w-[305px] mx-auto">
-        Somos a Via Certa para o seu negócio
+      <h1 className="font-normal text-3xl text-blue-primary-light max-w-[305px] mx-auto md:max-w-[698px]">
+        Somos a <span className='font-bold text-red-primary text-3xl'>Via Certa</span> para o seu negócio
       </h1>
       <div className="triangle-section">
         <div className="triangle"></div>
       </div>
 
-      <div className="h-[1274px] md:h-[867px] lg:w-[991px] mt-[80px]">
+      <div className="h-[1274px] md:h-[867px] lg:w-[991px] mt-[40px]">
         <div className="flex items-center md:pl-[60px] md:gap-[40px]">
           <div className="flex flex-col gap-[32px]">
             <h1 className="font-bold text-xl text-white max-w-[194px] md:max-w-[319px] mx-auto text-right md:text-left uppercase md:text-2xl">
@@ -31,9 +31,11 @@ const HomeBenefitsSection = () => {
               width={140}
               height={140}
             />
+            <div className='flex flex-col gap-[5px]'>
+              <div className="circle-medium"></div>
             <div className="circle-medium"></div>
             <div className="circle-medium"></div>
-            <div className="circle-medium"></div>
+            </div>
             <div className="vertical-line md:hidden"></div>
           </div>
         </div>
@@ -46,9 +48,11 @@ const HomeBenefitsSection = () => {
               width={140}
               height={140}
             />
+            <div className='flex flex-col gap-[5px]'>
+              <div className="circle-medium"></div>
             <div className="circle-medium"></div>
             <div className="circle-medium"></div>
-            <div className="circle-medium"></div>
+            </div>
             <div className="vertical-line md:hidden"></div>
           </div>
           <div className="flex flex-col gap-[32px]">
@@ -80,9 +84,11 @@ const HomeBenefitsSection = () => {
               width={140}
               height={140}
             />
+            <div className='flex flex-col gap-[5px]'>
+              <div className="circle-medium"></div>
             <div className="circle-medium"></div>
             <div className="circle-medium"></div>
-            <div className="circle-medium"></div>
+            </div>
             <div className="vertical-line md:hidden"></div>
           </div>
         </div>

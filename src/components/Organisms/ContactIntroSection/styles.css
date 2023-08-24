@@ -3,11 +3,11 @@
 @layer components {
   .contact-intro-section {
     @apply flex flex-col;
-    @apply md:flex-row md:h-[450px];
+    @apply md:flex-row md:justify-between md:h-[450px];
   }
 
   .contact-text-container {
-    @apply md:w-1/2 flex flex-col items-center md:mt-[108px] text-center;
+    @apply flex flex-col items-center md:mt-[108px] text-center md:px-8;
   }
 
   .title-contact-container {
@@ -20,12 +20,7 @@
     @apply md:text-4xl md:mt-6 md:max-w-[519px];
   }
 
-  .image-contact-container {
-    @apply md:w-1/2 h-full;
-  }
-
   .image-contact {
     @apply h-full w-full bg-cover bg-center;
-    
   }
 }

@@ -1,0 +1,24 @@
+@tailwind components;
+
+@layer components {
+  .carrousel-container {
+    @apply w-full h-[50px] bg-red-500 mt-[60px] flex items-center overflow-x-hidden relative justify-center;
+  }
+
+  .letter {
+    @apply flex items-center justify-center text-white gap-8;
+    animation: anim-stars 10s linear infinite;
+    position: absolute;
+  }
+  
+  @keyframes anim-stars {
+    0% {
+      transform: translateX(100%); 
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  } 
+}
+
+/* py-[19px] px-[35px] */

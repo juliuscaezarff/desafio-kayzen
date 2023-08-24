@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply w-screen overflow-x-hidden;
+    @apply w-screen overflow-x-hidden bg-[#F4F4F4];
   }
 
   section {

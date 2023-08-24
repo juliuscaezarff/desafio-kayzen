@@ -1,5 +1,8 @@
 import './styles.css'
 
+//next
+import Image from 'next/image'
+
 const App = () => {
   return (
     <section className="contact-intro-section">
@@ -10,10 +13,20 @@ const App = () => {
         </h2>
       </div>
       <div className="image-contact-container">
-        <img
-          className="image-contact"
-          src="/assets/foto-pagina-contato-main.png"
+        <Image
+          className="image-contact md:hidden"
+          src="/assets/foto-pagina-contato-main-mobile.png"
           alt="Imagem"
+          width={390}
+          height={327}
+        />
+
+        <Image
+          className="hidden md:block"
+          src="/assets/foto-pagina-contato-main-desktop.png"
+          alt="Imagem"
+          width={632}
+          height={555}
         />
       </div>
     </section>

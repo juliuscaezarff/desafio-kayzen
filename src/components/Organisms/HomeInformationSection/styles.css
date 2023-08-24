@@ -23,4 +23,11 @@
     @apply text-lg font-medium text-dark max-w-[279px] mt-[24px] mx-auto;
     @apply md:text-xl md:max-w-[437px] md:mx-0;
   }
+
+  .btn-information {
+    @apply mt-[40px] relative bg-white text-red-primary border-2 border-red-primary rounded-3xl h-[53px] uppercase w-[320px];
+    @apply shadow-md shadow-gray-400 transition duration-200 transform;
+    @apply hover:scale-105 hover:bg-blue-primary-light hover:text-white;
+    @apply hover:border-transparent hover:border-none hover:rounded-3xl hover:bottom-0 hover:left-0 hover:h-[53px];
+  }
 }

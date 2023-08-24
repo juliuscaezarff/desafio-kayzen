@@ -12,7 +12,7 @@ const HomeInformationSection = () => {
         <p className="sub-title-information-container">
           Confira dicas para escolher seus parceiros.
         </p>
-        <button className="px-16 bg-transparent text-red-primary border-2 border-red-primary rounded-3xl h-[53px] uppercase font-bold shadow-lg shadow-gray-600 mt-[40px] mb-[90px]">
+        <button className="btn-information">
           CONHEÇA O VIA CERTA ENSINA
         </button>
       </div>

@@ -62,7 +62,7 @@ const PartnersSection = () => {
       <h1 className='text-center font-bold text-3xl text-blue-primary-light mt-[90px] md:text-[40px]'>Nossos Parceiros</h1>
       <p className='text-center font-normal text-xl mt-[12px] md:text-2xl'>Distribuímos confiança para suas prateleiras</p>
       <div className="flex flex-col md:flex-row md:space-x-4 items-center md:items-start mt-[60px] md:mt-[150px] gap-[80px]">
-        <div className="max-w-[290px] items-center md:w-[450px] md:h-[405px] md:border md:rounded-2xl md:flex md:flex-col md:justify-center md:items-start">
+        <div className="max-w-[290px] items-center md:w-[450px] md:h-[405px] md:border md:rounded-r-lg md:flex md:flex-col md:justify-center md:items-start md:shadow-xl md:bg-white">
           <div className="flex gap-[12px] items-center mb-[30px] md:mb-0 md:justify-center md:p-6">
             <h1 className="font-medium text-2xl text-red-primary">Filtros</h1>
             <Faders size={24} className="decoration-red-primary" />
@@ -109,13 +109,13 @@ const PartnersSection = () => {
             ))}
           </ul>
         </div>
-        <div className="flex-1 flex flex-wrap gap-[24px] justify-center md:justify-start">
+        <div className="flex-1 flex flex-wrap gap-[18px] justify-center md:justify-start">
           {filteredPartners.map(partners => (
             <PartnersBox
               key={partners.id}
               imageSrc={partners.imageSrc}
               text1={partners.text1}
-              text2={partners.text2} id={0} label={''}            />
+              text2={partners.text2} id={0} label={''}/>
           ))}
         </div>
       </div>

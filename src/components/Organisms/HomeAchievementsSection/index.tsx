@@ -19,32 +19,38 @@ const HomeAchievementsSection = () => {
       <div className="achievements-container">
         <HomeAchievementsBox
           iconSrc="/icons/icon-clock.svg"
-          years="67"
+          years={67}
           title="anos de experiência"
         />
         <HomeAchievementsBox
           iconSrc="/icons/icon-bags.svg"
-          years="+500"
+          plus='+'
+          years={500}
           title="SKUs distribuídos"
         />
         <HomeAchievementsBox
           iconSrc="/icons/icon-boxes.svg"
-          years="+3 mil"
+          plus='+'
+          years={3}
+          text='mil'
           title="pontos de venda"
         />
         <HomeAchievementsBox
           iconSrc="/icons/icon-truck.svg"
-          years="+10"
+          plus='+'
+          years={10}
           title="caminhões de frota própria"
         />
         <HomeAchievementsBox
           iconSrc="/icons/icon-house.svg"
-          years="5 mil"
+          years={5}
+          text='mil'
           title="metros quadrados de CD"
         />
         <HomeAchievementsBox
           iconSrc="/icons/icon-people.svg"
-          years="+25"
+          plus='+'
+          years={25}
           title="agentes comerciais"
         />
       </div>

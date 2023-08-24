@@ -1,8 +1,10 @@
 'use client'
 
-import { ArrowBendDownLeft } from 'phosphor-react'
 import './styles.css'
+
 import Image from 'next/image'
+
+import CarrouselProducts from '@/components/Atoms/CarrouselProducts'
 
 const HomeProductsSection = () => {
   return (
@@ -14,38 +16,16 @@ const HomeProductsSection = () => {
         A Via Certa traz variedade, com produtos de diversos segmentos
         diferentes:
       </p>
-      <div className="carrousel-container">
-        <div className="letter">
-          <div className="flex gap-[34px] text-white">
-            <p className="w-[147px]">bebidas alcoolicas</p>
-          </div>
-          <div className="flex gap-[14px] text-white">
-            <p className="w-[147px]">lanches e cereais</p>
-          </div>
-          <div className="flex gap-[14px] text-white">
-            <p className="w-[147px]">refrescos em pó</p>
-          </div>
-          <div className="flex gap-[14px] text-white">
-            <p className="w-[147px]">pilhas e baterias</p>
-          </div>
-          <div className="flex gap-[14px] text-white">
-            <p className="w-[211px]">produto de lavar roupa</p>
-          </div>
-          <div className="flex gap-[14px] text-white">
-            <p className="w-[147px]">iluminação</p>
-          </div>
-          <div className="flex gap-[14px] text-white">
-            <p className="w-[147px]">disjuntores</p>
-          </div>
-        </div>
-      </div>
+
+      <CarrouselProducts />
+
       <div className="products-image-mobile">
         <Image
           src="/assets/via-certa-home-products-mobile.png"
           alt="imagem"
           width={321}
           height={813}
-          className="md:hidden"
+          className="w-full md:hidden py-[19px] px-[35px] h-[813px]"
         />
       </div>
       <div className="brands-container">
@@ -61,7 +41,7 @@ const HomeProductsSection = () => {
             src="/assets/foto-home-produtos-desktop.png"
             alt="imagem"
             width={698}
-            height={342}
+            height={370}
             className=""
           />
         </div>

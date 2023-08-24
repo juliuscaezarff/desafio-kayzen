@@ -65,7 +65,7 @@ const PartnersSection = () => {
         <div className="max-w-[290px] items-center md:w-[450px] md:h-[405px] md:border md:rounded-r-lg md:flex md:flex-col md:justify-center md:items-start md:shadow-xl md:bg-white">
           <div className="flex gap-[12px] items-center mb-[30px] md:mb-0 md:justify-center md:p-6">
             <h1 className="font-medium text-2xl text-red-primary">Filtros</h1>
-            <Faders size={24} className="decoration-red-primary" />
+            <Faders size={24} className="text-red-primary" />
           </div>
           <ul className="flex flex-col gap-[6px] md:p-6">
             {initialCheckboxOptions.map(option => (

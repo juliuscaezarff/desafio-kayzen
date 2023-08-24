@@ -11,7 +11,7 @@ const HomeFormSection = () => {
 
         <HomeFormComponent />
 
-        <button className="px-16 mt-[64px] bg-blue-primary text-white rounded-3xl h-[53px] uppercase shadow-lg shadow-gray-700">
+        <button className="btn-form">
           Enviar Mensagem
         </button>
       </div>

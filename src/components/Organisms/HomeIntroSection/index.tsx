@@ -16,7 +16,7 @@ const HomeIntroSection = () => {
           Conte com nosso selo de excelência, seja distribuindo sua marca ou
           abastecendo seu empreendimento.
         </p>
-        <button className="px-16 mt-[60px] relative bg-red-500 text-white rounded-3xl h-[53px] uppercase shadow-lg shadow-gray-600">
+        <button className="btn">
           Falar com a via certa
         </button>
       </div>

@@ -22,7 +22,7 @@ const BlogPublicationSection = () => {
         />
       </div>
 
-      <div className="mt-[70px] w-full flex flex-col mx-[0 24px] gap-[110px] md:flex-row md:justify-center">
+      <div className="mt-[70px] w-full flex flex-col mx-[0 24px] md:px-8 gap-[70px] md:flex-row md:justify-center">
         <div className="hot-news-section">
           <p className="hot-news-data">10 Out 2023</p>
           <h1 className="hot-news-text">

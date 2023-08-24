@@ -25,7 +25,7 @@ const MobileNavbar = ({ links, onClick }: MobileNavbarProps) => {
         {links.map(link => (
           <li
             key={id}
-            className="text-base leading-9 active:bg-violet-700"
+            className="text-base leading-9 active:bg-red-primary"
           >
             <Link href={link.href} onClick={onClick}>
               {link.label}

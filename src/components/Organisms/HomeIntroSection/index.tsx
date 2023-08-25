@@ -16,12 +16,23 @@ const HomeIntroSection = () => {
           Conte com nosso selo de excelência, seja distribuindo sua marca ou
           abastecendo seu empreendimento.
         </p>
-        <button className="btn">
-          Falar com a via certa
-        </button>
+        <button className="btn">Falar com a via certa</button>
       </div>
       <div className="w-full md:w-1/2">
-      <Image src='/assets/foto-principal-pagina-home.png' alt="" className="image-container" width={390} height={327}/>
+        <Image
+          src="/assets/via-certa-home-principal-mobile.png"
+          alt="imagem principal"
+          className="image-container md:hidden"
+          width={390}
+          height={327}
+        />
+        <Image
+          src="/assets/via-certa-home-principal-desktop.png"
+          alt="imagem principal"
+          className="image-container hidden md:block"
+          width={632}
+          height={555}
+        />
       </div>
     </section>
   )

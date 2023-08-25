@@ -12,7 +12,7 @@ const PartnersSection = () => {
   const partnersByOptions: { [key: string]: number[] } = {
     'Alimento para cães e gatos.': [1],
     'Lanches e cereais': [2, 3, 6, 5, 10],
-    'Iluminção e disjuntores': [8, 9],
+    'Iluminação e disjuntores': [8, 9],
     'Sucos e refrescos': [4, 7],
     'Produto de lavar roupa': [11]
   }
@@ -42,7 +42,7 @@ const PartnersSection = () => {
   }, [busca, partneSelected])
 
   const initialCheckboxOptions = [
-    'Iluminção e disjuntores',
+    'Iluminação e disjuntores',
     'Lanches e cereais',
     'Sucos e refrescos',
     'Produto de lavar roupa',
